@@ -22,7 +22,7 @@ p{
   padding: 5%;
   border: 1px solid #26527C;
   border-radius: 3px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
