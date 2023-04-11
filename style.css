@@ -1,0 +1,24 @@
+body{
+  background-image: url(sea.jpg);
+  display: flex;
+  justify-content:center;
+  margin-top:5%;
+  margin-bottom:5%;
+}
+.main{
+  padding: 40px;
+  width: 250px;
+  background-color: #679ED2;
+  border: 2px solid #26527C;
+}
+
+h1{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+p{
+  padding: 5%;
+  border: 1px solid #26527C;
+  border-radius: 3px;
+}
