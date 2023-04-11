@@ -1,5 +1,5 @@
 body{
-  background-image: url(sea.jpg);
+  background-image: url("sea.jpg");
   display: flex;
   justify-content:center;
   margin-top:5%;
@@ -21,4 +21,5 @@ p{
   padding: 5%;
   border: 1px solid #26527C;
   border-radius: 3px;
+  justify-content:center;
 }
