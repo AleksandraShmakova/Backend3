@@ -16,8 +16,8 @@ $limbs = intval($_POST['radio-2']);
 $superpowers = array($_POST['super']);
 $bio= $_POST['bio'];
 
-$bioreg = "/^\s*\w+[\w\s\.,-]*$/";
-$reg = "/^\w+[\w\s-]*$/";
+$bioreg = "/^[а-яА-ЯёЁa-zA-Z0-9\-_]+$/";
+$reg = "/^[а-яА-ЯёЁa-zA-Z0-9\-_]+$/";
 $mailreg = "/^[\w\.-]+@([\w-]+\.)+[\w-]{2,4}$/";
 $list_sup = array('inv','walk','fly');
 
